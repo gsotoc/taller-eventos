@@ -1,11 +1,15 @@
 // voy a seleccionar el elemento DIV
 
-const btn = document.getElementById('cont');
+const divbtn = document.getElementById('cont');
 
-btn.addEventListener('click', () => {
-   
+divbtn.addEventListener('click', () => {
     alert('Hola! Soy el div');
   });
 
 
+
+mandarAlerta = (event) => {
+    event.stopPropagation();
+    alert("Hola");
+};
 
