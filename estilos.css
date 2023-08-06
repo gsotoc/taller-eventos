@@ -1,0 +1,5 @@
+/* agrego estilos al div que contiene el botón*/
+#cont {
+    background-color: green;
+    padding: 5px;
+}
